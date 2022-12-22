@@ -1,0 +1,16 @@
+Here, I am taking a relative layout and inside this layout, we have a linear layout having an orientation vertical.
+I am taking two TextInputEditText and one TextView inside this linear layout. 
+I have used MaterialCardView to design the TextInputEditText and TextView.
+Now I am taking another linear layout having an orientation horizontal.
+We have to take four material buttons for performing addition, subtraction, multiplication, and division operations inside this inner linear layout.
+
+First, we have used supportActionBar to change the background color of ActionBar.
+Now we applied setOnClickListener to all the buttons which are defined in the activity_main.xml. 
+When the user clicks on any button, the inputIsNotEmpty() function will be called and this method will check whether the input field is empty or not. 
+If any input field is empty then it will return a false value otherwise it will return a true value. 
+If the inputIsNotEmpty() function returns a true value then statements that are written inside if() condition of a particular method will be executed.
+For example, if we click on the plus button then add() method will be called, and inside add() method first it will check inputIsNotEmpty() method to return a true or false value. 
+If a value is true then the addition of input numbers will be displayed on textview. 
+
+
+
